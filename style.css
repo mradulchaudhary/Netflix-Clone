@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+     background-image: url(Background-image.jpg);
+     background-position: center center;
+     background-size: 100vw;
+     background-repeat: no-repeat;
+      height: 100vh;
+      position: relative;
+}
+.main .box{
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
+    top: 0 ;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   max-width: 80vw;
+   margin: auto;
+    align-items: center;
+}
+button{
+    
+    background-color: red;
+    color: white;
+    width: 70px;
+}
+.hero{
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   position: relative;
+   flex-direction: column;
+}
+.hero > span:first-child{
+    font-size: 40px;
+    font-weight: 800;
+}
